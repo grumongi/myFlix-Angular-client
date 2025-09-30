@@ -1,0 +1,15 @@
+{
+  "entryPoints": ["src/app"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "exclude": [
+    "**/*.spec.ts",
+    "**/node_modules/**"
+  ],
+  "theme": "default",
+  "name": "MyFlix Angular Client Documentation",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "hideGenerator": false,
+  "tsconfig": "./tsconfig.json"
+}
